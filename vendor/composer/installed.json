@@ -1,0 +1,267 @@
+[
+    {
+        "name": "yiisoft/yii",
+        "version": "1.1.14",
+        "version_normalized": "1.1.14.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii.git",
+            "reference": "f0fee98ee84f70f1f3652f65562c9670e919cb4e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii/zipball/f0fee98ee84f70f1f3652f65562c9670e919cb4e",
+            "reference": "f0fee98ee84f70f1f3652f65562c9670e919cb4e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "time": "2013-08-12 00:12:08",
+        "bin": [
+            "framework/yiic"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Qiang Xue",
+                "email": "qiang.xue@gmail.com",
+                "homepage": "http://www.yiiframework.com/",
+                "role": "Founder and project lead"
+            },
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Maurizio Domba",
+                "homepage": "http://mdomba.info/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc",
+                "homepage": "http://cebe.cc/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Wei Zhuo",
+                "email": "weizhuo@gmail.com",
+                "role": "Project site maintenance and development"
+            },
+            {
+                "name": "Sebastián Thierer",
+                "email": "sebas@artfos.com",
+                "role": "Component development"
+            },
+            {
+                "name": "Jeffrey Winesett",
+                "email": "jefftulsa@gmail.com",
+                "role": "Documentation and marketing"
+            },
+            {
+                "name": "Timur Ruziev",
+                "email": "resurtm@gmail.com",
+                "homepage": "http://resurtm.com/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Paul Klimov",
+                "email": "klimov.paul@gmail.com",
+                "role": "Core framework development"
+            }
+        ],
+        "description": "Yii Web Programming Framework",
+        "homepage": "http://www.yiiframework.com/",
+        "keywords": [
+            "framework",
+            "yii"
+        ]
+    },
+    {
+        "name": "yiiext/nested-set-behavior",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiiext/nested-set-behavior.git",
+            "reference": "795fbafea624c8144ad0cff967cdaf5e7b38d8e9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiiext/nested-set-behavior/zipball/795fbafea624c8144ad0cff967cdaf5e7b38d8e9",
+            "reference": "795fbafea624c8144ad0cff967cdaf5e7b38d8e9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "time": "2013-12-30 12:04:50",
+        "type": "yii-extension",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Alexander Kochetov",
+                "email": "creocoder@gmail.com"
+            }
+        ],
+        "description": "AR models behavior that allows to work with nested sets tree.",
+        "homepage": "https://github.com/yiiext/nested-set-behavior",
+        "keywords": [
+            "extension",
+            "nested set",
+            "yii"
+        ]
+    },
+    {
+        "name": "yiiext/imperavi-redactor-widget",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiiext/imperavi-redactor-widget.git",
+            "reference": "1d60d5c02ac5f6b28597ee1d9c5f5a80ecc498c5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiiext/imperavi-redactor-widget/zipball/1d60d5c02ac5f6b28597ee1d9c5f5a80ecc498c5",
+            "reference": "1d60d5c02ac5f6b28597ee1d9c5f5a80ecc498c5",
+            "shasum": ""
+        },
+        "time": "2014-01-03 12:42:52",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Veaceslav Medvedev",
+                "email": "slavcopost@gmail.com",
+                "role": "Founder and project lead"
+            }
+        ],
+        "description": "Imperavi Redactor Widget for Yii",
+        "homepage": "https://github.com/yiiext/imperavi-redactor-widget",
+        "keywords": [
+            "impravi",
+            "wysiwyg",
+            "yii"
+        ]
+    },
+    {
+        "name": "zhuravljov/yii2-debug",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zhuravljov/yii2-debug.git",
+            "reference": "cb3ad0382725273d0a3424e9cf9bd9e449623d7c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zhuravljov/yii2-debug/zipball/cb3ad0382725273d0a3424e9cf9bd9e449623d7c",
+            "reference": "cb3ad0382725273d0a3424e9cf9bd9e449623d7c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "time": "2014-01-10 18:56:49",
+        "type": "yii-extension",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Zhuravlev",
+                "email": "zhuravljov@gmail.com"
+            }
+        ],
+        "description": "Yii debug toolbar",
+        "homepage": "https://github.com/zhuravljov/yii2-debug",
+        "keywords": [
+            "debug",
+            "extension",
+            "yii"
+        ]
+    },
+    {
+        "name": "clevertech/yii-booster",
+        "version": "v2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/clevertech/YiiBooster.git",
+            "reference": "fff83e2ea250a9f9ef66305fab02b83474422da5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/clevertech/YiiBooster/zipball/fff83e2ea250a9f9ef66305fab02b83474422da5",
+            "reference": "fff83e2ea250a9f9ef66305fab02b83474422da5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "require-dev": {
+            "ardem/yii-coding-standard": "dev-master",
+            "mayflower/php-codebrowser": "1.0.*@dev",
+            "ncuesta/pinocchio": "dev-master",
+            "phploc/phploc": "*",
+            "phpunit/phpunit": "3.7.*",
+            "sebastian/phpcpd": "*",
+            "squizlabs/php_codesniffer": "1.*",
+            "yiisoft/yii": "1.1.14"
+        },
+        "time": "2013-12-18 11:57:37",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Antonio Ramirez Cobos",
+                "email": "amigo.cobos@gmail.com",
+                "homepage": "http://www.ramirezcobos.com",
+                "role": "Founder and development"
+            },
+            {
+                "name": "Saphronov Mark",
+                "email": "hijarian@gmail.com",
+                "homepage": "http://about.me/hijarian"
+            },
+            {
+                "name": "Ruslan Fadeev"
+            }
+        ],
+        "description": "Widget toolkit for Yii framework",
+        "homepage": "http://yiibooster.clevertech.biz/",
+        "keywords": [
+            "bootstrap",
+            "yii"
+        ]
+    }
+]
