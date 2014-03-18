@@ -27,7 +27,7 @@ class HomeCarousel extends CWidget
                 shuffle($files);
                 $files = array_slice($files, 0, $this->limit);
 
-                foreach ($files as $file) $items[] = array('image' => $file, 'caption' => '111', 'label' => '222');
+                foreach ($files as $file) $items[] = array('image' => $file, 'caption' => 'Напыляемое пробковое покрытие', 'label' => 'ISOCORK');
                 break;
         }
         return $items;

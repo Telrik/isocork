@@ -67,10 +67,10 @@ class LzCarousel extends TbCarousel
                 echo CHtml::openTag('div', $item['captionOptions']);
 
                 if (isset($item['label']))
-                    echo '<h4>' . $item['label'] . '</h4>';
+                    echo '<h1>' . $item['label'] . '</h1>';
 
                 if (isset($item['caption']))
-                    echo '<p>' . $item['caption'] . '</p>';
+                    echo '<p class="lead">' . $item['caption'] . '</p>';
 
                 echo '</div>';
                 echo '</div>';

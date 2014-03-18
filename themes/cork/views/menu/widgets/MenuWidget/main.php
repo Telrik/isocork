@@ -3,7 +3,7 @@
         <?php
         $this->widget('bootstrap.widgets.TbNavbar', array(
             'collapse' => true,
-            'type' => 'inverse',
+            //'type' => 'inverse',
             'fixed' => false,
             'fluid' => true,
             'brand' => 'isocork77.ru',

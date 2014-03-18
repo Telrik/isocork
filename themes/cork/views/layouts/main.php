@@ -10,25 +10,21 @@
     <meta property="og:title" content="<?php echo CHtml::encode($this->pageTitle); ?>"/>
     <meta property="og:description" content="<?php echo $this->description; ?>"/>
     <?php
-    $mainAssets = Yii::app()->AssetManager->publish(
-        Yii::app()->theme->basePath . "/web/"
-    );
-
-    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/yupe.css');
+    $mainAssets = Yii::app()->AssetManager->publish(Yii::app()->theme->basePath . "/web/");
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/style.css');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/blog.js');
-    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/holder.js');
     ?>
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 
 <body>
-
 <?php $this->widget('application.modules.menu.widgets.MenuWidget', array('name' => 'top-menu')); ?>
 
-<?php $this->widget('application.components.widgets.HomeCarousel', array('limit' => 32)); ?>
+<?php //$this->widget('application.components.widgets.HomeCarousel', array('limit' => 32)); ?>
 
 <!-- container -->
 <div class='container'>
