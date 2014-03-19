@@ -8,8 +8,8 @@ body {
     color: #5a5a5a;
 }
 
-div.cork-stats div {
-    min-height: 170px;
+div.cork-stats h4 {
+    /*min-height: 100px;*/
 }
 
 .row-fluid ul.thumbnails li.span12 + li {
