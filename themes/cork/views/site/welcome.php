@@ -3,8 +3,9 @@
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div class="container marketing">
-
-
+    <div class="jumbotron">
+        <h1>Изокорк-Москва +79296078021</h1>
+    </div>
     <!-- <div class="jumbotron">
          <h1>ISOCORK</h1>
 
@@ -62,13 +63,13 @@
     <!-- /.row -->
     <br/>
     <!-- Three columns of text below the carousel -->
-    <div class="row cork-stats" >
+    <div class="row cork-stats">
 
 
         <div class="span3">
             <img class="img-circle" src="/web/images/audio2.png">
 
-            <h4>ОБЕСПЕЧИВАЕТ ТЕПЛО-<br />И ЗВУКОИЗОЛЯЦИЮ</h4>
+            <h4>ОБЕСПЕЧИВАЕТ ТЕПЛО-<br/>И ЗВУКОИЗОЛЯЦИЮ</h4>
 
             <p><a class="btn" href="#">Читать далее &raquo;</a></p>
         </div>
