@@ -22,10 +22,10 @@ Yii::import('application.modules.install.InstallModule');
             $gMap->setWidth('100%');
             $gMap->setHeight('300');
 
-            $gMap->setCenter(25.279704, 55.453685);
+            $gMap->setCenter(37.641885, 55.930657);
 
             // Create marker
-            $marker = new EGMapMarker(25.279704, 55.453685, array('title' => 'Our location'));
+            $marker = new EGMapMarker(37.641885, 55.930657, array('title' => 'Our location'));
             $gMap->addMarker($marker);
             $gMap->renderMap();
             ?>
