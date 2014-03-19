@@ -30,7 +30,7 @@
 
             <h4>НЕ ГОРИТ</h4>
 
-            <p><a class="btn" href="#">Читать далее &raquo;</a></p>
+            <p><a class="btn btn-primary" href="/pages/probka-naturalnyj-ogneupornyj-material">Читать далее &raquo;</a></p>
         </div>
 
         <div class="span3">
