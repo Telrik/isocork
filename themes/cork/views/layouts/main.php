@@ -39,7 +39,7 @@
     );?>
     <div class="row">
         <!-- content -->
-        <section class="span9 content">
+        <section class="span12 content">
             <?php echo $content; ?>
         </section>
         <!-- content end-->
