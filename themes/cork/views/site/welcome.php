@@ -173,7 +173,7 @@
 
 <div class="row-fluid">
     <div class="span6" style="text-align: center">
-        <h3>Напыляемое пробковое покрытие</h3>
+        <h2>Напыляемое пробковое покрытие</h2>
         <img src="/web/images/minilogo.png" alt=""/>
 
         <img src="/web/images/vedro.png" alt=""/>
