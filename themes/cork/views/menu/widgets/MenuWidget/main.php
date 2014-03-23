@@ -17,6 +17,7 @@ $this->widget('bootstrap.widgets.TbNavbar', array(
         ),
         array(
             'class' => 'bootstrap.widgets.TbMenu',
+            'encodeLabel' => false,
             'items' => $this->controller->yupe->getLanguageSelectorArray(),
             'htmlOptions' => array(
                 'class' => 'pull-right',
