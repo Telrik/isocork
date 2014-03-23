@@ -30,7 +30,6 @@ header .logo img {
     background: none !important;
 }
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -81,7 +80,6 @@ header .logo img {
     letter-spacing: -1px;
 }
 
-
 .row-fluid ul.thumbnails li.span12 + li {
     margin-left: 0px;
 }
@@ -104,4 +102,10 @@ header .logo img {
 
 .row-fluid ul.thumbnails li.span1:nth-child(12n + 13) {
     margin-left: 0px;
+}
+
+.map {
+    margin-bottom: 20px;
+    margin-top: -30px;
+    position: relative;
 }
