@@ -12,7 +12,21 @@
     <?php
     $mainAssets = Yii::app()->AssetManager->publish(Yii::app()->theme->basePath . "/web/");
     Yii::app()->clientScript->registerCssFile($mainAssets . '/css/style.css');
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/default.css');
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/fix.css');
+
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/blog.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/prettify.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/modernizr.custom.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/toucheffects.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.easing.1.3.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.bxslider.min.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.prettyPhoto.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.flexslider.js');
+
+
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/animate.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/custom.js');
     ?>
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
@@ -22,7 +36,28 @@
 </head>
 
 <body>
-<?php $this->widget('application.modules.menu.widgets.MenuWidget', array('name' => 'top-menu')); ?>
+
+<div id="wrapper">
+    <!-- start header -->
+    <header>
+        <div class="top"></div>
+        <div class="container">
+            <div class="row nomargin">
+                <div class="span4">
+                    <div class="logo">
+                        <a href="/"><img src="/web/images/cork-logo.png" alt=""/></a>
+                    </div>
+                </div>
+                <div class="span8">
+                    <?php $this->widget('application.modules.menu.widgets.MenuWidget', array('name' => 'top-menu')); ?>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up icon-square icon-bglight icon-2x active"></i></a>
 
 <?php //$this->widget('application.components.widgets.HomeCarousel', array('limit' => 32)); ?>
 
@@ -47,7 +82,7 @@
 
 
     <!-- footer -->
-    <?php $this->renderPartial('//layouts/_footer'); ?>
+    <?php //$this->renderPartial('//layouts/_footer'); ?>
     <!-- footer end -->
 </div>
 

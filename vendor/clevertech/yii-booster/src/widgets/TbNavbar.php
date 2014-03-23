@@ -128,7 +128,7 @@ class TbNavbar extends CWidget
 	public function run()
 	{
 		echo CHtml::openTag('div', $this->htmlOptions);
-		echo '<div class="navbar-inner"><div class="' . $this->getContainerCssClass() . '">';
+		echo '<div class="navigation"><div class="' . $this->getContainerCssClass() . '">';
 
 		$collapseId = TbCollapse::getNextContainerId();
 

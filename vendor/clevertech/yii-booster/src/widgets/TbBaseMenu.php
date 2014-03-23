@@ -165,7 +165,7 @@ abstract class TbBaseMenu extends CMenu
 			}
 
 			$item['linkOptions']['data-toggle'] = 'dropdown';
-			$item['label'] .= ' <span class="caret"></span>';
+			$item['label'] .= ' <i class="fa fa-angle-down"></i>';
 		}
 
 		if (isset($item['url'])) {

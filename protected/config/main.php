@@ -83,6 +83,7 @@ return array(
         'db' => file_exists(__DIR__ . '/db.php') ? require_once __DIR__ . '/db.php' : array(),
         'bootstrap' => array(
             'class' => 'bootstrap.components.Bootstrap',
+	    'enableCdn' => false,
             'responsiveCss' => true,
             'fontAwesomeCss' => true,
         ),
