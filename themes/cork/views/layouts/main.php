@@ -43,12 +43,12 @@
         <div class="top"></div>
         <div class="container">
             <div class="row nomargin">
-                <div class="span4">
+                <div class="span1">
                     <div class="logo">
                         <a href="/"><img src="/web/images/cork-logo.png" alt=""/></a>
                     </div>
                 </div>
-                <div class="span8">
+                <div class="span11">
                     <?php $this->widget('application.modules.menu.widgets.MenuWidget', array('name' => 'top-menu')); ?>
                 </div>
             </div>
