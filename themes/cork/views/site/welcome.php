@@ -4,7 +4,11 @@
 
 <div class="jumbotron">
     <h1>Изокорк&nbsp;<i class="fa fa-bullseye"></i>&nbsp;Москва<br/>+79296078021</h1>
-    <img src="/web/images/isocork-logo.png" alt=""/>
+
+    <p class="lead">
+        <img src="/web/images/isocork-logo.png" alt=""/>
+    </p>
+    <a class="btn btn-large btn-success" href="#">Заказать прямо сейчас</a>
 </div>
 
 <div class="featurette">
