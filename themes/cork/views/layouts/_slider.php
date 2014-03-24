@@ -18,8 +18,9 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
 
                             <p class="animated fadeInUp"> ISOCORK – уникальный отделочный материал, разработанный российскими химиками и технологами для применения в строительной сфере. В основе этого экологически чистого материала кора
                                 пробкового дерева, выращенная самой природой и смесь акриловых связующих. В качестве разбавителя применяется вода. </p>
+                            <br/><br/>
 
-                            <a class="btn btn-large btn-theme" href="#buy-now"><i class="fa fa-rub"></i> Заказать прямо сейчас с 5% скидкой</a>
+                            <a class="btn btn-large btn-danger" href="#buy-now"><i class="fa fa-rub"></i> Заказать прямо сейчас с 5% скидкой</a>
 
                             <!--<a href="#" class="btn btn-success btn-large animated fadeInUp">
                                 <i class="icon-link"></i> Read more
