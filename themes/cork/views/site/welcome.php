@@ -205,7 +205,7 @@
 <div class="row-fluid">
     <div class="span12">
         <div class="featurette">
-            <h2 class="featurette-heading">ISOCORK <span class="muted"> легко  наносится на любой тип материалов и поверхностей:</span></h2>
+            <h2 class="featurette-heading">ISOCORK <span class="muted"> легко  наносится на любой тип материалов и поверхностей</span></h2>
         </div>
     </div>
 
@@ -285,7 +285,7 @@
 <div class="row-fluid">
     <div class="span12">
         <div class="featurette">
-            <h2 class="featurette-heading">ISOCORK <span class="muted"> выпускается нескольких видов:</span></h2>
+            <h2 class="featurette-heading">ISOCORK <span class="muted"> выпускается нескольких видов</span></h2>
         </div>
     </div>
     <div class="row-fluid">
