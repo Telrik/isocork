@@ -14,15 +14,21 @@ Yii::import('application.modules.install.InstallModule');
             <?php
             Yii::import('ext.gmap.*');
             $gMap = new EGMap();
-            $gMap->zoom = 13;
+            $gMap->zoom = 9;
             $gMap->setWidth('100%');
             $gMap->setHeight('300');
 
             $gMap->setCenter(55.930657, 37.641885);
 
             // Create marker
-            $marker = new EGMapMarker(55.930657, 37.641885, array('title' => 'Our location'));
+            $marker = new EGMapMarker(55.930657, 37.641885, array('title' => 'Демонстрация готовых объектов'));
             $gMap->addMarker($marker);
+
+
+            $marker = new EGMapMarker( 55.705046, 37.622939, array('title' => 'Офис'));
+            $gMap->addMarker($marker);
+
+
             $gMap->renderMap();
             ?>
         </div>
@@ -123,11 +129,17 @@ Yii::import('application.modules.install.InstallModule');
                         <h5 class="widgetheading">Контактная информация<span></span></h5>
 
                         <ul class="contact-info">
-                            <li><label>Адрес :</label> Tinggi sekali tower Jl.Kemacetan timur<br>Jakarta selatan - Indonesia
+                            <li>
+                                <label>Адрес:</label>
+                                <i>Демонстрация готовых объектов</i>
+                                <br/>Москва, Aлтуфьевское шоссе 5 км от мкада
+                                <br/>
+                                <br/>
+                                <i>Офис</i>
+                                <br/> Москва, Большая тульская 43
                             </li>
-                            <li><label>Телефон :</label>+79296078021</li>
-                            <li><label>Fax : </label>+62 123 456 10 / +62 123 456 11</li>
-                            <li><label>Email : </label> info@isocork77.ru</li>
+                            <li><label>Телефон: </label>+79296078021</li>
+                            <li><label>Email: </label> info@isocork77.ru</li>
                         </ul>
 
                     </div>
