@@ -75,7 +75,9 @@
     </div>
 </div>
 
-<div style="margin-top:30px" class="row-fluid">
+<br/>
+
+<div class="row-fluid">
     <div class="span4">
         <div class="box flyLeft animated fadeInLeftBig">
             <div class="icon">
@@ -256,6 +258,8 @@
     </div>
 </div>
 
+<br/>
+
 <div class="row-fluid">
     <div class="span12">
         <div class="featurette">
@@ -271,7 +275,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="row-fluid">
     <div class="span12">
@@ -339,6 +342,8 @@
         </div>
     </div>
 </div>
+
+<br/>
 
 <div class="row-fluid">
     <div class="span12 aligncenter">
