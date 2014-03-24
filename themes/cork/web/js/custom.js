@@ -95,6 +95,16 @@ jQuery(document).ready(function($) {
 			$(this).find('.accordion-toggle i').not($(e.target)).addClass('icon-plus');
 		});	
 
+/*	$('#camera-slide').camera({		
+		thumbnails: false,
+		hover: false,
+		fx: 'random',
+		time: 7000,
+		transPeriod: 1500,
+		pagination: false,
+		loader: 'none'
+	});*/
+
 	// testimonial
 	var TestiSlide = $('.bxslider');
 	TestiSlide.bxSlider({

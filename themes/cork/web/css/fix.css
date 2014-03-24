@@ -59,6 +59,14 @@ header .logo img {
 /* Featurettes
 ------------------------- */
 
+.pricing-box-wrap .pricing-action {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+header .top p.topcontact {
+    font-size: 24px;
+}
+
 .featurette-divider {
     margin: 30px 0; /* Space out the Bootstrap <hr> more */
 }

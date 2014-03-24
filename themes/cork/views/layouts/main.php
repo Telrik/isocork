@@ -11,8 +11,13 @@
     <meta property="og:description" content="<?php echo $this->description; ?>"/>
     <?php
     $mainAssets = Yii::app()->AssetManager->publish(Yii::app()->theme->basePath . "/web/");
+
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/flexslider.css');
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/prettyPhoto.css');
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/camera.css');
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/jquery.bxslider.css');
     Yii::app()->clientScript->registerCssFile($mainAssets . '/css/style.css');
-    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/default.css');
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/green.css');
     Yii::app()->clientScript->registerCssFile($mainAssets . '/css/fix.css');
 
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/blog.js');
@@ -23,9 +28,8 @@
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.bxslider.min.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.prettyPhoto.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.flexslider.js');
-
-
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/animate.js');
+
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/custom.js');
     ?>
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
@@ -40,7 +44,17 @@
 <div id="wrapper" class="boxed">
     <!-- start header -->
     <header>
-        <div class="top"></div>
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="pull-right">
+                        <p class="topcontact"><i class="icon-phone"></i> +79296078021</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="row nomargin">
                 <div class="span1">
@@ -56,6 +70,7 @@
     </header>
     <!-- end header -->
 
+    <?php if ($this->id == 'site' && $this->action->id == 'index') $this->renderPartial('//layouts/_slider'); ?>
 
     <?php //$this->widget('application.components.widgets.HomeCarousel', array('limit' => 32)); ?>
 

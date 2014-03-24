@@ -3,7 +3,8 @@
 <footer>
     <div class="container">
         <div class="row-fluid">
-            <div class="span6">
+
+            <div class="span4">
                 <div class="widget">
                     <h5 class="widgetheading">Свяжитесь c нами</h5>
                     <address>
@@ -23,16 +24,19 @@
                     </p>
                 </div>
             </div>
+            <div class="span4">
+            </div>
+            <div class="span4">
+            </div>
         </div>
     </div>
     <div id="sub-footer">
         <div class="container">
-            <div class="row-fluid">
+            <div class="row">
                 <div class="span6">
                     <div class="copyright">
                         <p><span>&copy;2014 Herl. All right reserved</span></p>
                     </div>
-
                 </div>
 
                 <div class="span6">

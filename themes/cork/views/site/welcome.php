@@ -2,6 +2,7 @@
 
 <div class="container marketing">
 
+<!--
 <div class="jumbotron">
     <h1>Изокорк&nbsp;<i class="fa fa-bullseye"></i>&nbsp;Москва<br/>+79296078021</h1>
 
@@ -10,14 +11,16 @@
     </p>
     <a class="btn btn-large btn-danger" href="#buy-now"><i class="fa fa-rub"></i> Заказать прямо сейчас с 5% скидкой</a>
 </div>
+-->
+<div class="row-fluid">
+    <div class="featurette">
+        <h2 class="featurette-heading">ISOCORK <span class="muted">Напыляемое пробковое покрытие</span></h2>
 
-<div class="featurette">
-    <h2 class="featurette-heading">ISOCORK <span class="muted">Напыляемое пробковое покрытие</span></h2>
-
-    <p class="lead">
-        ISOCORK – уникальный отделочный материал, разработанный российскими химиками и технологами для применения в строительной сфере. В основе этого экологически чистого материала кора пробкового дерева, выращенная самой природой и
-        смесь акриловых связующих. В качестве разбавителя применяется вода.
-    </p>
+        <p class="lead">
+            ISOCORK – уникальный отделочный материал, разработанный российскими химиками и технологами для применения в строительной сфере. В основе этого экологически чистого материала кора пробкового дерева, выращенная самой природой и
+            смесь акриловых связующих. В качестве разбавителя применяется вода.
+        </p>
+    </div>
 </div>
 
 <hr class="featurette-divider">
@@ -156,6 +159,44 @@
             <img src="/web/images/air-tree.png" alt="" align="right"/>
             Жидкая пробка, нанесённая на фасад из ориентированно-стружечной плиты (ОСП или OSB), защищает его от воды, ветра и солнца, позволяет плитам и дереву «дышать», ведь паропропускающая способность ISOCORK составляет до 75 %.
         </p>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row-fluid">
+    <div class="span12 aligncenter">
+        <h3 class="title">Люди об <strong>ISOCORK</strong></h3>
+
+        <div class="blankline30"></div>
+
+        <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;">
+            <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 204px;">
+                <ul class="bxslider" style="width: 615%; position: relative; left: -3510px;">
+                    <li style="float: left; list-style: none outside none; position: relative; width: 1170px;" class="bx-clone">
+                        <blockquote>
+                            Купил ИЗОКОРК и теперь у меня всё хорошо, мои волосы снова стали шелковистыми а будующее безоблачным.
+                        </blockquote>
+                        <div class="testimonial-autor">
+                            <img src="/web/images/testimonial/2.png" alt=""/>
+                            <h4>Вася пупкин</h4>
+                            <a href="#">www.companyname.com</a>
+                        </div>
+                    </li>
+                    <li style="float: left; list-style: none outside none; position: relative; width: 1170px;">
+                        <blockquote>
+                            Обмазываюсь ISOCORK каждый день, что позволяет мне сохранить свежесть и румяность.
+                        </blockquote>
+                        <div class="testimonial-autor">
+                            <img src="/web/images/testimonial/1.png" alt=""/>
+                            <h4>Владимир Ленин</h4>
+                            <a href="#">Мавзолей</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -349,43 +390,6 @@
     </div>
 </div>
 
-<br/>
-
-<div class="row-fluid">
-    <div class="span12 aligncenter">
-        <h3 class="title">Люди об <strong>ISOCORK</strong></h3>
-
-        <div class="blankline30"></div>
-
-        <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;">
-            <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 204px;">
-                <ul class="bxslider" style="width: 615%; position: relative; left: -3510px;">
-                    <li style="float: left; list-style: none outside none; position: relative; width: 1170px;" class="bx-clone">
-                        <blockquote>
-                            Купил ИЗОКОРК и теперь у меня всё хорошо, мои волосы снова стали шелковистыми а будующее безоблачным.
-                        </blockquote>
-                        <div class="testimonial-autor">
-                            <img src="/web/images/testimonial/2.png" alt=""/>
-                            <h4>Вася пупкин</h4>
-                            <a href="#">www.companyname.com</a>
-                        </div>
-                    </li>
-                    <li style="float: left; list-style: none outside none; position: relative; width: 1170px;">
-                        <blockquote>
-                            Обмазываюсь ISOCORK каждый день, что позволяет мне сохранить свежесть и румяность.
-                        </blockquote>
-                        <div class="testimonial-autor">
-                            <img src="/web/images/testimonial/1.png" alt=""/>
-                            <h4>Владимир Ленин</h4>
-                            <a href="#">Мавзолей</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-</div>
 
 </div>
 </section>
