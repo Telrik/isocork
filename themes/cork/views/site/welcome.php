@@ -8,7 +8,7 @@
     <p class="lead">
         <img src="/web/images/isocork-logo.png" alt=""/>
     </p>
-    <a class="btn btn-large btn-danger" href="#"><i class="fa fa-rub"></i> Заказать прямо сейчас с 5% скидкой</a>
+    <a class="btn btn-large btn-danger" href="#buy-now"><i class="fa fa-rub"></i> Заказать прямо сейчас с 5% скидкой</a>
 </div>
 
 <div class="featurette">
@@ -279,6 +279,8 @@
         </div>
     </div>
 </div>
+
+<a name="buy-now"></a>
 
 <div class="row-fluid">
     <div class="span12">
