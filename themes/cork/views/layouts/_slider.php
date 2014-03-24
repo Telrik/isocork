@@ -15,7 +15,7 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
                     <div class="row">
                         <div class="span6">
 
-                            <h2 style="text-shadow: 2px 2px 2px #222;margin-top:200px" class="animated fadeInDown"><strong><span class="colored">Напыляемое&nbsp;пробковое&nbsp;покрытие</span></strong></h2>
+                            <h2 style="text-shadow: 3px 4px 2px rgba(150, 150, 150, 1);margin-top:200px" class="animated fadeInDown"><strong>Напыляемое<span style="text-shadow: 3px 4px 2px #000;" class="colored">&nbsp;пробковое&nbsp;покрытие</span></strong></h2>
                             <a class="btn btn-large btn-danger" href="#buy-now"><i class="fa fa-rub"></i> Заказать прямо сейчас с 5% скидкой</a>
 
                             <!--<a href="#" class="btn btn-success btn-large animated fadeInUp">
