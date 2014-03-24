@@ -1,3 +1,5 @@
+<a href="#" class="scrollup"><i class="fa fa-angle-up icon-square icon-bglight icon-2x active"></i></a>
+
 <footer>
     <div class="container">
         <div class="row">

@@ -1,146 +1,131 @@
 <section id="content">
+
 <div class="container marketing">
 
 <div class="jumbotron">
-    <h1>Изокорк-Москва +79296078021</h1>
-
+    <h1>Изокорк&nbsp;<i class="fa fa-bullseye"></i>&nbsp;Москва<br/>+79296078021</h1>
     <img src="/web/images/isocork-logo.png" alt=""/>
 </div>
-
 
 <div class="featurette">
     <h2 class="featurette-heading">ISOCORK <span class="muted">Напыляемое пробковое покрытие</span></h2>
 
-    <p class="lead">ISOCORK – уникальный отделочный материал, разработанный российскими химиками и технологами для применения в строительной сфере. В основе этого экологически чистого материала кора пробкового дерева, выращенная самой природой и
-        смесь акриловых связующих. В качестве разбавителя применяется вода.</p>
+    <p class="lead">
+        ISOCORK – уникальный отделочный материал, разработанный российскими химиками и технологами для применения в строительной сфере. В основе этого экологически чистого материала кора пробкового дерева, выращенная самой природой и
+        смесь акриловых связующих. В качестве разбавителя применяется вода.
+    </p>
 </div>
 
 <hr class="featurette-divider">
 
-<div class="row">
-    <div class="span12">
-        <div class="row">
-            <div class="span4">
-                <div class="box flyLeft animated fadeInLeftBig">
-                    <div class="icon">
-                        <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/fire.png">
+<div class="row-fluid">
 
-                    </div>
-                    <div class="text">
-                        <h4 class=""><strong>Не</strong> Горит</h4>
+    <div class="span4">
+        <div class="box flyLeft animated fadeInLeftBig">
+            <div class="icon">
+                <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/fire.png">
 
-                        <p>
-                            Пробка не способствует распространению пламени и не выделяет токсичных газов при возгорании.
-                        </p>
-                        <a href="/pages/ognestojkost">Узнать больше</a>
-                    </div>
-                </div>
+            </div>
+            <div class="text">
+                <h4 class=""><strong>Не</strong> Горит</h4>
+
+                <p>
+                    Пробка не способствует распространению пламени и не выделяет токсичных газов при возгорании.
+                </p>
+                <a href="/pages/ognestojkost">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="span4">
+        <div class="box flyIn animated fadeInUp">
+            <div class="icon">
+                <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/not_decay.png">
             </div>
 
-            <div class="span4">
-                <div class="box flyIn animated fadeInUp">
-                    <div class="icon">
-                        <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/not_decay.png">
-                    </div>
-
-                    <div class="icon">
-                        <img style="left:0px; position: absolute; top:70px;" class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/gribok.png">
-                    </div>
-
-                    <div class="text">
-                        <h4 class=""><strong>Не</strong> Гниёт, <strong>Не</strong> боится грибка</h4>
-
-                        <p>
-                            Антисептик – это противогнилостные средства, предназначенные для предупреждения процессов разложения.
-                        </p>
-                        <a href="/pages/gipoallergennye-svojstva">Узнать больше</a>
-                    </div>
-                </div>
+            <div class="icon">
+                <img style="left:0px; position: absolute; top:70px;" class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/gribok.png">
             </div>
 
-            <div class="span4">
-                <div class="box flyRight animated fadeInRightBig">
-                    <div class="icon">
-                        <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/propronicaemoe.png">
-                    </div>
-                    <div class="text">
-                        <h4 class="">Паро<strong>ни</strong>проницаемое</h4>
+            <div class="text">
+                <h4 class=""><strong>Не</strong> Гниёт, <strong>Не</strong> боится грибка</h4>
 
-                        <p>
-                            Паропроницаемость – это способность материалов пропускать водяной пар, который находится в воздухе.
-                        </p>
-                        <a href="/pages/paropronicaemost">Узнать больше</a>
-                    </div>
-                </div>
+                <p>
+                    Антисептик – это противогнилостные средства, предназначенные для предупреждения процессов разложения.
+                </p>
+                <a href="/pages/gipoallergennye-svojstva">Узнать больше</a>
             </div>
+        </div>
+    </div>
 
+    <div class="span4">
+        <div class="box flyRight animated fadeInRightBig">
+            <div class="icon">
+                <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/propronicaemoe.png">
+            </div>
+            <div class="text">
+                <h4 class="">Паро<strong>ни</strong>проницаемое</h4>
+
+                <p>
+                    Паропроницаемость – это способность материалов пропускать водяной пар, который находится в воздухе.
+                </p>
+                <a href="/pages/paropronicaemost">Узнать больше</a>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="row">
-    <div class="span12">
-        <div class="row">
-            <div class="span4">
-                <div class="box flyLeft animated fadeInLeftBig">
-                    <div class="icon">
-                        <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/electric.png">
-                    </div>
-                    <div class="text">
-                        <h4 class=""><strong>Не</strong> Электризуется</h4>
-
-                        <p>
-                            Пробка не электризуется, в отличие от многих синтетических материалов, не накапливает статическое электричество и не собирает пыль.
-                        </p>
-                    </div>
-                </div>
+<div style="margin-top:30px" class="row-fluid">
+    <div class="span4">
+        <div class="box flyLeft animated fadeInLeftBig">
+            <div class="icon">
+                <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/electric.png">
             </div>
+            <div class="text">
+                <h4 class=""><strong>Не</strong> Электризуется</h4>
 
-            <div class="span4">
-                <div class="box flyIn animated fadeInUp">
-                    <div class="icon">
-                        <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/audio2.png">
-                    </div>
-                    <div class="text">
-                        <h4 class=""><strong>Обеспечивает</strong> Тепло и Звукоизоляцию</h4>
-
-                        <p>
-                            ISOCORK, толщиной слоя в 6 мм, нанесённый как внутри помещения так и снаружи, способен ослабить уровень шума до 65dB.
-                        </p>
-                        <a href="/pages/shumoizoljacija">Узнать больше</a>
-                    </div>
-                </div>
+                <p>
+                    Пробка не электризуется, в отличие от многих синтетических материалов, не накапливает статическое электричество и не собирает пыль.
+                </p>
             </div>
+        </div>
+    </div>
 
-            <div class="span4">
-                <div class="box flyRight animated fadeInRightBig">
-                    <div class="icon">
-                        <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/eco.png">
-                    </div>
-                    <div class="text">
-                        <h4 class=""><strong>Экологически</strong> Чистый Материал</h4>
-
-                        <p>
-                            ISOCORK на 90% состоит из измельченной коры пробкового дуба и на 10 % из связующих полимеров.
-                        </p>
-                    </div>
-                </div>
+    <div class="span4">
+        <div class="box flyIn animated fadeInUp">
+            <div class="icon">
+                <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/audio2.png">
             </div>
+            <div class="text">
+                <h4 class=""><strong>Обеспечивает</strong> Тепло и Звукоизоляцию</h4>
 
+                <p>
+                    ISOCORK, толщиной слоя в 6 мм, нанесённый как внутри помещения так и снаружи, способен ослабить уровень шума до 65dB.
+                </p>
+                <a href="/pages/shumoizoljacija">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="span4">
+        <div class="box flyRight animated fadeInRightBig">
+            <div class="icon">
+                <img class="ico icon-circled icon-bglight active icon-3x img-circle" src="/web/images/eco.png">
+            </div>
+            <div class="text">
+                <h4 class=""><strong>Экологически</strong> Чистый Материал</h4>
+
+                <p>
+                    ISOCORK на 90% состоит из измельченной коры пробкового дуба и на 10 % из связующих полимеров.
+                </p>
+            </div>
         </div>
     </div>
 </div>
 
+<hr class="featurette-divider">
 
-<div class="row">
-    <div class="span12">
-        <div class="solidline"></div>
-    </div>
-</div>
-
-
-<div class="row">
-
+<div class="row-fluid">
     <div class="featurette">
         <h2 class="featurette-heading">ISOCORK <span class="muted"> обладает высоким коэффициентом сцепления</span></h2>
 
@@ -211,13 +196,15 @@
 
 <hr class="featurette-divider">
 
-<div class="row">
-    <div class="featurette">
-        <h2 class="featurette-heading">ISOCORK <span class="muted"> легко  наносится на любой тип материалов и поверхностей:</span></h2>
+<div class="row-fluid">
+    <div class="span12">
+        <div class="featurette">
+            <h2 class="featurette-heading">ISOCORK <span class="muted"> легко  наносится на любой тип материалов и поверхностей:</span></h2>
+        </div>
+    </div>
 
+    <div class="row-fluid">
         <div class="span8">
-
-
             <?php
             $thumbs = array();
             $thumbs[] = array('image' => 'web/images/materials/briks-u622.png', 'title' => 'Кирпич');
@@ -251,7 +238,7 @@
 
 <hr class="featurette-divider">
 
-<div class="row">
+<div class="row-fluid">
     <div class="span12">
         <div class="featurette">
             <h2 class="featurette-heading">ISOCORK <span class="muted"> для дома и квартир</span></h2>
@@ -269,7 +256,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row-fluid">
     <div class="span12">
         <div class="featurette">
             <h2 class="featurette-heading">ISOCORK <span class="muted"> для промышленных объектов</span></h2>
@@ -286,72 +273,74 @@
 </div>
 
 
-<div class="row">
+<div class="row-fluid">
     <div class="span12">
         <div class="featurette">
             <h2 class="featurette-heading">ISOCORK <span class="muted"> выпускается нескольких видов:</span></h2>
         </div>
     </div>
-    <div class="span4">
-        <div class="pricing-box-wrap">
-            <div class="pricing-heading">
-                <h3><strong>УНИВЕРСАЛЬНЫЙ</strong></h3>
-            </div>
-            <div class="pricing-terms">
-                <h6>100 <i class="fa fa-rub"></i> / Ведро</h6>
-            </div>
-            <div class="pricing-content">
-                <ul>
-                    <li><i class="icon-ok"></i> Цвет натуральной пробки</li>
-                </ul>
-            </div>
-            <div class="pricing-action">
-                <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
-            </div>
-        </div>
-    </div>
-    <div class="span4">
-        <div class="pricing-box-wrap special">
-            <div class="pricing-heading">
-                <h3><strong>ФАСАДНЫЙ</strong></h3>
-            </div>
-            <div class="pricing-terms">
-                <h6>100 <i class="fa fa-rub"></i> / Ведро</h6>
-            </div>
-            <div class="pricing-content">
-                <ul>
-                    <li><i class="icon-ok"></i> 20 стандартных цветов</li>
-                    <li><img width="100%" src="/web/images/vedro3.jpg" alt=""/></li>
-
-                </ul>
-            </div>
-            <div class="pricing-action">
-                <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
+    <div class="row-fluid">
+        <div class="span4">
+            <div class="pricing-box-wrap">
+                <div class="pricing-heading">
+                    <h3><strong>УНИВЕРСАЛЬНЫЙ</strong></h3>
+                </div>
+                <div class="pricing-terms">
+                    <h6>100 <i class="fa fa-rub"></i> / Ведро</h6>
+                </div>
+                <div class="pricing-content">
+                    <ul>
+                        <li><i class="icon-ok"></i> Цвет натуральной пробки</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="span4">
-        <div class="pricing-box-wrap">
-            <div class="pricing-heading">
-                <h3><strong>ОГНЕУПОРНЫЙ</strong></h3>
-            </div>
-            <div class="pricing-terms">
-                <h6>$35.00 / Month</h6>
-            </div>
+        <div class="span4">
+            <div class="pricing-box-wrap special">
+                <div class="pricing-heading">
+                    <h3><strong>ФАСАДНЫЙ</strong></h3>
+                </div>
+                <div class="pricing-terms">
+                    <h6>100 <i class="fa fa-rub"></i> / Ведро</h6>
+                </div>
+                <div class="pricing-content">
+                    <ul>
+                        <li><i class="icon-ok"></i> 20 стандартных цветов</li>
+                        <li><img width="100%" src="/web/images/vedro3.jpg" alt=""/></li>
 
-            <div class="pricing-content">
-                <ul>
-                    <li><i class="icon-ok"></i> белого цвета</li>
-                </ul>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
+                </div>
             </div>
-            <div class="pricing-action">
-                <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
+        </div>
+        <div class="span4">
+            <div class="pricing-box-wrap">
+                <div class="pricing-heading">
+                    <h3><strong>ОГНЕУПОРНЫЙ</strong></h3>
+                </div>
+                <div class="pricing-terms">
+                    <h6>$35.00 / Month</h6>
+                </div>
+
+                <div class="pricing-content">
+                    <ul>
+                        <li><i class="icon-ok"></i> белого цвета</li>
+                    </ul>
+                </div>
+                <div class="pricing-action">
+                    <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="row">
+<div class="row-fluid">
     <div class="span12 aligncenter">
         <h3 class="title">Люди об <strong>ISOCORK</strong></h3>
 
@@ -362,63 +351,22 @@
                 <ul class="bxslider" style="width: 615%; position: relative; left: -3510px;">
                     <li style="float: left; list-style: none outside none; position: relative; width: 1170px;" class="bx-clone">
                         <blockquote>
-                            Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis.
-                            Etiam adipiscing, justo quis feugiat
+                            Купил ИЗОКОРК и теперь у меня всё хорошо, мои волосы снова стали шелковистыми а будующее безоблачным.
                         </blockquote>
                         <div class="testimonial-autor">
-
+                            <img src="/web/images/testimonial/2.png" alt=""/>
                             <h4>Вася пупкин</h4>
                             <a href="#">www.companyname.com</a>
                         </div>
                     </li>
                     <li style="float: left; list-style: none outside none; position: relative; width: 1170px;">
                         <blockquote>
-                            Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis.
-                            Etiam adipiscing, justo quis feugiat
+                            Обмазываюсь ISOCORK каждый день, что позволяет мне сохранить свежесть и румяность.
                         </blockquote>
                         <div class="testimonial-autor">
-                            <h4>Hillary Doe</h4>
-                            <a href="#">www.companyname.com</a>
-                        </div>
-                    </li>
-                    <li style="float: left; list-style: none outside none; position: relative; width: 1170px;">
-                        <blockquote>
-                            Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis.
-                            Etiam adipiscing, justo quis feugiat
-                        </blockquote>
-                        <div class="testimonial-autor">
-                            <h4>Michael Doe</h4>
-                            <a href="#">www.companyname.com</a>
-                        </div>
-                    </li>
-                    <li style="float: left; list-style: none outside none; position: relative; width: 1170px;">
-                        <blockquote>
-                            Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis.
-                            Etiam adipiscing, justo quis feugiat
-                        </blockquote>
-                        <div class="testimonial-autor">
-                            <h4>Mark Donovan</h4>
-                            <a href="#">www.companyname.com</a>
-                        </div>
-                    </li>
-                    <li style="float: left; list-style: none outside none; position: relative; width: 1170px;">
-                        <blockquote>
-                            Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis.
-                            Etiam adipiscing, justo quis feugiat
-                        </blockquote>
-                        <div class="testimonial-autor">
-                            <h4>Marry Doe Elliot</h4>
-                            <a href="#">www.companyname.com</a>
-                        </div>
-                    </li>
-                    <li style="float: left; list-style: none outside none; position: relative; width: 1170px;" class="bx-clone">
-                        <blockquote>
-                            Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis.
-                            Etiam adipiscing, justo quis feugiat
-                        </blockquote>
-                        <div class="testimonial-autor">
-                            <h4>Hillary Doe</h4>
-                            <a href="#">www.companyname.com</a>
+                            <img src="/web/images/testimonial/1.png" alt=""/>
+                            <h4>Владимир Ленин</h4>
+                            <a href="#">Мавзолей</a>
                         </div>
                     </li>
                 </ul>
@@ -430,11 +378,3 @@
 
 </div>
 </section>
-
-
-<!-- START THE FEATURETTES -->
-
-<hr class="featurette-divider">
-
-
-

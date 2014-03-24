@@ -102,6 +102,7 @@ jQuery(document).ready(function($) {
 		pager: false,
 		controls: false,
 		useCSS: false,
+		pause: 6000,
 		speed: 2000,
 		easing: 'easeOutElastic',
 		mode: 'horizontal',

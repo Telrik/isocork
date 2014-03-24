@@ -8,7 +8,6 @@ Yii::import('application.modules.install.InstallModule');
 <?php $this->widget('yupe\widgets\YFlashMessages'); ?>
 <h1><?php echo Yii::t('FeedbackModule.feedback', 'Contacts'); ?></h1>
 
-
 <section id="content">
     <div class="map">
         <div style="padding: 5px; border: 1px solid #CCC">
@@ -137,16 +136,3 @@ Yii::import('application.modules.install.InstallModule');
         </div>
     </div>
 </section>
-
-
-<div class="row-fluid">
-    <div class="span4">
-        <h4>Телефон: +79296078021</h4>
-    </div>
-    <div class="span8">
-
-
-        <br/>
-
-    </div>
-</div>

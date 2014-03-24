@@ -37,7 +37,7 @@
 
 <body>
 
-<div id="wrapper">
+<div id="wrapper" class="boxed">
     <!-- start header -->
     <header>
         <div class="top"></div>
@@ -56,37 +56,34 @@
     </header>
     <!-- end header -->
 
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up icon-square icon-bglight icon-2x active"></i></a>
 
-<?php //$this->widget('application.components.widgets.HomeCarousel', array('limit' => 32)); ?>
+    <?php //$this->widget('application.components.widgets.HomeCarousel', array('limit' => 32)); ?>
 
-<!-- container -->
-<div class='container'>
-    <!-- flashMessages -->
-    <?php $this->widget('yupe\widgets\YFlashMessages'); ?>
-    <!-- breadcrumbs -->
-    <?php $this->widget(
-        'bootstrap.widgets.TbBreadcrumbs',
-        array(
-            'links' => $this->breadcrumbs,
-        )
-    );?>
-    <div class="row">
-        <!-- content -->
-        <section class="span12 content">
-            <?php echo $content; ?>
-        </section>
-        <!-- content end-->
+    <!-- container -->
+    <div class='container'>
+        <!-- flashMessages -->
+        <?php $this->widget('yupe\widgets\YFlashMessages'); ?>
+        <!-- breadcrumbs -->
+        <?php $this->widget(
+            'bootstrap.widgets.TbBreadcrumbs',
+            array(
+                'links' => $this->breadcrumbs,
+            )
+        );?>
+        <div class="row-fluid">
+            <!-- content -->
+            <section class="span12 content">
+                <?php echo $content; ?>
+            </section>
+            <!-- content end-->
+        </div>
     </div>
 
 
+    <!-- footer -->
+    <?php $this->renderPartial('//layouts/_footer'); ?>
+    <!-- footer end -->
 </div>
-
-
-<!-- footer -->
-<?php $this->renderPartial('//layouts/_footer'); ?>
-<!-- footer end -->
 
 <!-- container end -->
 <?php $this->widget(
