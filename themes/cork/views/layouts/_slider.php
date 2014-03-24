@@ -53,7 +53,7 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
                             <form>
                                 <div class="input-append">
                                     <input class="span3 input-large" type="text">
-                                    <button class="btn btn-theme btn-large" type="submit">Заказать</button>
+                                    <button class="btn btn-danger btn-large" type="submit">Заказать</button>
                                 </div>
                             </form>
                         </div>
