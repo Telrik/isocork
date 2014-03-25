@@ -2,6 +2,7 @@
 
 <div class="container marketing">
 
+
 <!--
 <div class="jumbotron">
     <h1>Изокорк&nbsp;<i class="fa fa-bullseye"></i>&nbsp;Москва<br/>+79296078021</h1>
@@ -12,6 +13,7 @@
     <a class="btn btn-large btn-danger" href="#buy-now"><i class="fa fa-rub"></i> Заказать прямо сейчас с 5% скидкой</a>
 </div>
 -->
+
 <div class="row-fluid">
     <div class="featurette">
         <h2 class="featurette-heading">ISOCORK <span class="muted">Напыляемое пробковое покрытие</span></h2>
