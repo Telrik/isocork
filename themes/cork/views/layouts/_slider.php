@@ -60,11 +60,15 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
         </div>
 
         <!-- slide 3 here -->
-        <!--<div data-src="img/slides/camera/slide2/img1.jpg">
+        <div data-src="img/slides/camera/slide2/img1.jpg">
             <div class="camera_caption fadeFromLeft">
+
                 <div class="container">
                     <div class="row">
-                        <div class="span12 aligncenter">
+                        <div class="span6">
+                            <iframe src="http://www.youtube.com/embed/bnDCKZPjRys?feature=player_embedded&controls=0" width="50%" height="100%" frameborder="0" webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true"></iframe>
+                        </div>
+                        <div class="span6">
                             <h2 class="animated fadeInDown"><strong><span class="colored">Responsive</span> and <span class="colored">cross broswer</span> compatibility</strong></h2>
 
                             <p class="animated fadeInUp">Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
@@ -73,7 +77,7 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
     </div>
     <!-- slideshow end here -->
 
