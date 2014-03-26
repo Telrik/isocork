@@ -133,3 +133,53 @@ footer {
     padding: 20px 0 0;
     margin-top: 20px;
 }
+
+h1.calculator {
+    background: url("/web/images/calc.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 10px 0px 15px 75px;
+}
+
+input.input-large {
+    font-size: 22px !important;
+    padding: 18px 30px !important;
+}
+
+.calc-cost span, .calc-cost i {
+    font-size: 25px;
+    color: #000;
+}
+
+.total-cost span, .total-cost i {
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+#calculator-form h5 {
+    margin-bottom: 4px;
+}
+
+#calculator-form .checkbox {
+    /*
+    font-size: 22px;
+    font-weight: 400;
+    */
+}
+
+#calculator-form hr {
+    margin: 10px 0;
+}
+
+#calculator-form label.large {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#calculator-form .checkbox {
+    padding-left: 0;
+}
+
+#calculator-form .row-fluid, #calculator-form .well {
+    display: flex;
+    align-items: center;
+}

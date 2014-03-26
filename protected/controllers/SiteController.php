@@ -17,8 +17,12 @@ class SiteController extends yupe\components\controllers\FrontController
     public function actionModern()
     {
         $this->render('modern');
-    }    
+    }
 
+    public function actionCalculator()
+    {
+        $this->render('calculator');
+    }
 
     /**
      * Отображение главной страницы
@@ -43,7 +47,7 @@ class SiteController extends yupe\components\controllers\FrontController
             $this->redirect(array('index'));
         }
 
-        if(!Yii::app()->getRequest()->getIsAjaxRequest()){
+        if (!Yii::app()->getRequest()->getIsAjaxRequest()) {
 
             $this->render('error', array(
                     'error' => $error
@@ -63,7 +67,7 @@ class SiteController extends yupe\components\controllers\FrontController
                     'limit' => self::POST_PER_PAGE,
                     'order' => 't.id DESC',
                     'with' => array('createUser', 'blog', 'commentsCount'),
-            )),
+                )),
         ));
 
         $this->render('main', array('dataProvider' => $dataProvider));

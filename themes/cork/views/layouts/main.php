@@ -18,6 +18,7 @@
     Yii::app()->clientScript->registerCssFile($mainAssets . '/css/jquery.bxslider.css');
     Yii::app()->clientScript->registerCssFile($mainAssets . '/css/style.css');
     Yii::app()->clientScript->registerCssFile($mainAssets . '/css/green.css');
+    Yii::app()->clientScript->registerCssFile($mainAssets . '/css/bootstrap-switch.css');
     Yii::app()->clientScript->registerCssFile($mainAssets . '/css/fix.css');
 
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/blog.js');
@@ -28,6 +29,7 @@
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.bxslider.min.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.prettyPhoto.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.flexslider.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/bootstrap-switch.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/animate.js');
 
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/custom.js');
