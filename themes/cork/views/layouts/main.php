@@ -137,12 +137,12 @@
                 <!-- content end-->
             </div>
         </div>
-
-        <!-- footer -->
-        <?php $this->renderPartial('//layouts/_footer'); ?>
-        <!-- footer end -->
-
     </div>
+
+
+    <!-- footer -->
+    <?php $this->renderPartial('//layouts/_footer'); ?>
+    <!-- footer end -->
 
     <!-- container end -->
     <?php $this->widget(
