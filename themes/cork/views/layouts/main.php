@@ -89,7 +89,8 @@
             <div id="top-nav-hook" class="<?php echo $wide ? 'container-fluid' : 'container'; ?>">
                 <div class="row">
                     <a href="#" id="make-wide" class="btn btn-inverse btn-mini pull-left" style="margin-right:10px;margin-left:10px;margin-bottom:10px">
-                        <i class="fa fa-arrow-left"></i> <i class="fa fa-flask"></i> <i class="fa fa-arrow-right"></i>
+                        <!--   <i class="fa fa-arrow-left"></i> <i class="fa fa-flask"></i> <i class="fa fa-arrow-right"></i>-->
+                        &nbsp; <i class="fa fa-expand"></i> &nbsp;
                     </a>
 
                     <div class="pull-right">
