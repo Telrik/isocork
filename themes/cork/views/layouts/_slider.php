@@ -70,7 +70,7 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
                                     allowFullScreen="true"></iframe>
                         </div>
                         <div class="span6">
-                            <h2 class="animated fadeInDown"><strong><span class="colored">Бонусная программа 2014 Изокорк Москва</span> Приведи друга и получи <span class="colored">5%</span> на бонусную карту.</h2>
+                            <h2 class="animated fadeInDown"><strong><span class="colored">Бонусная программа 2014 Изокорк Москва</span></strong> Приведи друга и получи <span class="colored">5%</span> на бонусную карту.</h2>
 
                             <p class="animated fadeInUp">
 

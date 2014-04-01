@@ -1,6 +1,5 @@
 <section id="content">
-<div class="container marketing">
-
+<div class="c1ontainer m1arketing">
 
 <!--
 <div class="jumbotron">
@@ -167,7 +166,7 @@
 
 <div class="row-fluid">
     <div class="span12 aligncenter">
-        <h3 class="title">Люди об <strong>НАС</strong></h3>
+        <h3 class="title">Люди об <strong>ISOCORK</strong></h3>
 
         <div class="blankline30"></div>
 

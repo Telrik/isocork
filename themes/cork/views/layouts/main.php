@@ -28,6 +28,7 @@
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.easing.1.3.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.bxslider.min.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.prettyPhoto.js');
+    Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.cookie.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/jquery.flexslider.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/bootstrap-switch.js');
     Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/animate.js');
@@ -39,6 +40,21 @@
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $("#make-wide").click(function () {
+                if ($('#wrapper').hasClass("boxed")) {
+                    $.cookie($('#wrapper').removeClass("boxed"));
+                    $('#root-container').removeClass("container");
+                } else {
+                    $.cookie($('#wrapper').addClass("boxed"));
+                    $('#root-container').addClass("container");
+                }
+                return false;
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -49,6 +65,10 @@
         <div class="top">
             <div class="container">
                 <div class="row">
+                    <a href="#" id="make-wide" class="btn btn-inverse btn-mini pull-left" style="margin-right:10px;margin-left:10px;margin-bottom:10px">
+                        <i class="fa fa-arrow-left"></i> <i class="fa fa-flask"></i> <i class="fa fa-arrow-right"></i>
+                    </a>
+
                     <div class="pull-right">
                         <p class="topcontact"><i class="icon-phone"></i> +7 929 6078021, +7 985 6006130, +7 495 6516119</p>
                     </div>
@@ -77,7 +97,7 @@
     <?php //$this->widget('application.components.widgets.HomeCarousel', array('limit' => 32)); ?>
 
     <!-- container -->
-    <div class='container'>
+    <div id='root-container' class='container'>
         <!-- flashMessages -->
         <?php $this->widget('yupe\widgets\YFlashMessages'); ?>
         <!-- breadcrumbs -->
@@ -88,24 +108,25 @@
             )
         );?>
         <div class="row-fluid">
-            <!-- content -->
-            <section class="span12 content">
-                <?php echo $content; ?>
-            </section>
-            <!-- content end-->
+            <div class="span12">
+                <!-- content -->
+                <section class="span12 content">
+                    <?php echo $content; ?>
+                </section>
+                <!-- content end-->
+            </div>
         </div>
+
+        <!-- footer -->
+        <?php $this->renderPartial('//layouts/_footer'); ?>
+        <!-- footer end -->
+
     </div>
 
-
-    <!-- footer -->
-    <?php $this->renderPartial('//layouts/_footer'); ?>
-    <!-- footer end -->
-</div>
-
-<!-- container end -->
-<?php $this->widget(
-    "application.modules.contentblock.widgets.ContentBlockWidget",
-    array("code" => "STAT", "silent" => true)
-); ?>
+    <!-- container end -->
+    <?php $this->widget(
+        "application.modules.contentblock.widgets.ContentBlockWidget",
+        array("code" => "STAT", "silent" => true)
+    ); ?>
 </body>
 </html>
