@@ -383,7 +383,7 @@
 
 <div class="row-fluid">
     <div class="span6">
-        <div class="pricing-box-wrap special">
+        <div class="pricing-box-wrap">
             <div class="pricing-heading">
                 <h3><strong>ОГНЕУПОРНЫЙ</strong></h3>
             </div>
