@@ -414,7 +414,7 @@
 
 
 <div class="row-fluid">
-    <div class="span12">
+    <div class="span4">
         <div class="pricing-box-wrap">
             <div class="pricing-heading">
                 <h3><strong>ПРОБКОВЫЙ ГЕРМЕТИК</strong></h3>
