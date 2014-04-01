@@ -70,13 +70,12 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
                                     allowFullScreen="true"></iframe>
                         </div>
                         <div class="span6">
-                            <h2 class="animated fadeInDown"><strong><span class="colored">Responsive</span> and <span class="colored">cross broswer</span> compatibility</strong></h2>
+                            <h2 class="animated fadeInDown"><strong><span class="colored">Бонусная программа 2014 Изокорк Москва</span> Приведи друга и получи <span class="colored">5%</span> на бонусную карту.</h2>
 
                             <p class="animated fadeInUp">
-                                Бонусная программа 2014 Изокорк Москва:<br/>
-                                Приведи друга и получи 5% на бонусную карту.
+
                             </p>
-                            <img src="img/slides/camera/slide3/browsers.png" alt="" class="animated bounceInDown delay1"/>
+                            <!--<img src="img/slides/camera/slide3/browsers.png" alt="" class="animated bounceInDown delay1"/>-->
                         </div>
                     </div>
                 </div>
