@@ -41,16 +41,39 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <?php $wide = ($_COOKIE['mode'] == 'wide') ? true : false; ?>
+
     <script>
         jQuery(document).ready(function ($) {
+            var mode = 'boxed';
             $("#make-wide").click(function () {
                 if ($('#wrapper').hasClass("boxed")) {
-                    $.cookie($('#wrapper').removeClass("boxed"));
+
+                    $('#wrapper').removeClass("boxed");
                     $('#root-container').removeClass("container");
+
+                    $('#top-nav-hook').removeClass("container");
+                    $('#top-nav-hook').addClass("container-fluid");
+
+                    $('#top-nav-logo').removeClass("container");
+                    $('#top-nav-logo').addClass("container-fluid");
+
+                    mode = 'wide';
+
                 } else {
+
                     $.cookie($('#wrapper').addClass("boxed"));
                     $('#root-container').addClass("container");
+
+                    $('#top-nav-hook').removeClass("container-fluid");
+                    $('#top-nav-hook').addClass("container");
+
+                    $('#top-nav-logo').removeClass("container-fluid");
+                    $('#top-nav-logo').addClass("container");
+
+                    mode = 'boxed';
                 }
+                $.cookie("mode", mode, {expires: 365, path: '/'});
                 return false;
             });
         });
@@ -59,11 +82,11 @@
 
 <body>
 
-<div id="wrapper" class="boxed">
+<div id="wrapper" class="<?php echo $wide ? '' : 'boxed'; ?>">
     <!-- start header -->
     <header>
         <div class="top">
-            <div class="container">
+            <div id="top-nav-hook" class="<?php echo $wide ? 'container-fluid' : 'container'; ?>">
                 <div class="row">
                     <a href="#" id="make-wide" class="btn btn-inverse btn-mini pull-left" style="margin-right:10px;margin-left:10px;margin-bottom:10px">
                         <i class="fa fa-arrow-left"></i> <i class="fa fa-flask"></i> <i class="fa fa-arrow-right"></i>
@@ -77,14 +100,14 @@
             </div>
         </div>
 
-        <div class="container">
+        <div id="top-nav-logo" class="<?php echo $wide ? 'container-fluid' : 'container'; ?>">
             <div class="row nomargin">
                 <div class="span1">
                     <div class="logo">
                         <a href="/"><img src="/web/images/cork-logo.png" alt=""/></a>
                     </div>
                 </div>
-                <div class="span11">
+                <div class="span11 pull-right">
                     <?php $this->widget('application.modules.menu.widgets.MenuWidget', array('name' => 'top-menu')); ?>
                 </div>
             </div>
@@ -97,7 +120,7 @@
     <?php //$this->widget('application.components.widgets.HomeCarousel', array('limit' => 32)); ?>
 
     <!-- container -->
-    <div id='root-container' class='container'>
+    <div id='root-container' class='<?php echo $wide ? '' : 'container'; ?>'>
         <!-- flashMessages -->
         <?php $this->widget('yupe\widgets\YFlashMessages'); ?>
         <!-- breadcrumbs -->

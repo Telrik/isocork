@@ -1,5 +1,5 @@
 <section id="content">
-<div class="c1ontainer m1arketing">
+<div style="margin:6px 15px 6px 15px" class="c1ontainer m1arketing">
 
 <!--
 <div class="jumbotron">

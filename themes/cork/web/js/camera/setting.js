@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 		hover: false,
 		fx: 'random',
 		time: 7000,
-		transPeriod: 1500,
+		transPeriod: 1100,
 		pagination: false,
 		loader: 'none'
 	});
