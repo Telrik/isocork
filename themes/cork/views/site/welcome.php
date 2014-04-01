@@ -1,5 +1,4 @@
 <section id="content">
-
 <div class="container marketing">
 
 
@@ -168,7 +167,7 @@
 
 <div class="row-fluid">
     <div class="span12 aligncenter">
-        <h3 class="title">Люди об <strong>ISOCORK</strong></h3>
+        <h3 class="title">Люди об <strong>НАС</strong></h3>
 
         <div class="blankline30"></div>
 
@@ -177,22 +176,25 @@
                 <ul class="bxslider" style="width: 615%; position: relative; left: -3510px;">
                     <li style="float: left; list-style: none outside none; position: relative; width: 1170px;" class="bx-clone">
                         <blockquote>
-                            Купил ИЗОКОРК и теперь у меня всё хорошо, мои волосы снова стали шелковистыми а будующее безоблачным.
+                            Спасибо большое вам за вашу отличную работу!Уже не в первый раз заказываю,все очень нравится!Пробка -это что то невероятное!Ни разу не пожалела о том что несколько лет назад остановила свой выбор на ней,спасибо вашим
+                            продавцам за то что подробно объяснили все плюсы и минусы,консульт ируете вы на 5 с плюсом!И укладчики ваши работают аккуратно и быстро.Ваша пробка у меня везде-дома,на даче,у детей в квартире и у соседки подружки!! еще
+                            раз ОГРОМНОЕ спасибо!
                         </blockquote>
                         <div class="testimonial-autor">
                             <img src="/web/images/testimonial/2.png" alt=""/>
-                            <h4>Вася пупкин</h4>
-                            <a href="#">www.companyname.com</a>
+                            <h4>Калинина Ирина</h4>
+                            <!--<a href="#">www.companyname.com</a>-->
                         </div>
                     </li>
                     <li style="float: left; list-style: none outside none; position: relative; width: 1170px;">
                         <blockquote>
-                            Обмазываюсь ISOCORK каждый день, что позволяет мне сохранить свежесть и румяность.
+                            Здравствуйте,дв а года назад заказали у вас пробку в детскую комнату и на открытый балкон.Очень довольны!!Теплы е ,бесшумные полы,не надо никаких ковров.Понравилось отношение к заказчикам,позв онили через год спросили о
+                            состоянии полов,всем ли мы довольны.Придем заказывать еще,родителям на кухню!!Спасибо вам большое!!!
                         </blockquote>
                         <div class="testimonial-autor">
                             <img src="/web/images/testimonial/1.png" alt=""/>
-                            <h4>Владимир Ленин</h4>
-                            <a href="#">Мавзолей</a>
+                            <h4>Светлана</h4>
+                            <!--<a href="#">Мавзолей</a>-->
                         </div>
                     </li>
                 </ul>
@@ -326,72 +328,120 @@
 <a name="buy-now"></a>
 
 <div class="row-fluid">
-    <div class="span12">
-        <div class="featurette">
-            <h2 class="featurette-heading">ISOCORK <span class="muted"> выпускается нескольких видов</span></h2>
+    <div class="span4">
+        <div class="pricing-box-wrap">
+            <div class="pricing-heading">
+                <h3><strong>УНИВЕРСАЛЬНЫЙ</strong></h3>
+            </div>
+
+            <div class="pricing-terms">
+                <h6>3960 <i class="fa fa-rub"></i> / Ведро</h6>
+                <h6>330 <i class="fa fa-rub"></i> / Киллограмм</h6>
+                <h6>860 <i class="fa fa-rub"></i> / Работы по напылению</h6>
+            </div>
+
+
+            <!-- <div class="pricing-content">
+                 <ul>
+                     <li><i class="fa fa-thumbs-up"></i> Стоимость работ по напылению ISOCORK</li>
+                     <li><i class="fa fa-rub"></i> 860</li>
+                 </ul>
+             </div>-->
+
+
+            <div class="pricing-content">
+                <ul>
+                    <li><i class="icon-ok"></i> Цвет натуральной пробки</li>
+                    <li><img alt="" src="/web/images/vedro.png" style="height:200px"></li>
+                </ul>
+            </div>
+
+
+            <div class="pricing-action">
+                <a href="/contacts" class="btn btn-medium btn-theme"><i class="fa fa-rub"></i> Купить</a>
+            </div>
         </div>
     </div>
-    <div class="row-fluid">
-        <div class="span4">
-            <div class="pricing-box-wrap">
-                <div class="pricing-heading">
-                    <h3><strong>УНИВЕРСАЛЬНЫЙ</strong></h3>
-                </div>
-                <div class="pricing-terms">
-                    <h6>100 <i class="fa fa-rub"></i> / Ведро</h6>
-                </div>
-                <div class="pricing-content">
-                    <ul>
-                        <li><i class="icon-ok"></i> Цвет натуральной пробки</li>
-                    </ul>
-                </div>
-                <div class="pricing-action">
-                    <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
-                </div>
+    <div class="span4">
+        <div class="pricing-box-wrap special">
+            <div class="pricing-heading">
+                <h3><strong>ФАСАДНЫЙ</strong></h3>
+            </div>
+
+            <div class="pricing-terms">
+                <h6>4200 <i class="fa fa-rub"></i> / Ведро</h6>
+                <h6>350 <i class="fa fa-rub"></i> / Киллограмм</h6>
+                <h6>900 <i class="fa fa-rub"></i> / Работы по напылению</h6>
+            </div>
+
+            <div class="pricing-content">
+                <ul>
+                    <li><i class="icon-ok"></i> 20 стандартных цветов</li>
+                    <li><img alt="" src="/web/images/vedro3.png" style="height:200px"></li>
+
+                </ul>
+            </div>
+            <div class="pricing-action">
+                <a href="/contacts" class="btn btn-medium btn-theme"><i class="fa fa-rub"></i> Купить</a>
             </div>
         </div>
-        <div class="span4">
-            <div class="pricing-box-wrap special">
-                <div class="pricing-heading">
-                    <h3><strong>ФАСАДНЫЙ</strong></h3>
-                </div>
-                <div class="pricing-terms">
-                    <h6>100 <i class="fa fa-rub"></i> / Ведро</h6>
-                </div>
-                <div class="pricing-content">
-                    <ul>
-                        <li><i class="icon-ok"></i> 20 стандартных цветов</li>
-                        <li><img width="100%" src="/web/images/vedro3.jpg" alt=""/></li>
-
-                    </ul>
-                </div>
-                <div class="pricing-action">
-                    <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
-                </div>
+    </div>
+    <div class="span4">
+        <div class="pricing-box-wrap">
+            <div class="pricing-heading">
+                <h3><strong>ОГНЕУПОРНЫЙ</strong></h3>
             </div>
-        </div>
-        <div class="span4">
-            <div class="pricing-box-wrap">
-                <div class="pricing-heading">
-                    <h3><strong>ОГНЕУПОРНЫЙ</strong></h3>
-                </div>
-                <div class="pricing-terms">
-                    <h6>$35.00 / Month</h6>
-                </div>
 
-                <div class="pricing-content">
-                    <ul>
-                        <li><i class="icon-ok"></i> белого цвета</li>
-                    </ul>
-                </div>
-                <div class="pricing-action">
-                    <a class="btn btn-medium btn-theme" href="#"><i class="fa fa-rub"></i> Купить</a>
-                </div>
+            <div class="pricing-terms">
+                <h6>4800 <i class="fa fa-rub"></i> / Ведро</h6>
+                <h6>400 <i class="fa fa-rub"></i> / Киллограмм</h6>
+                <h6>1000 <i class="fa fa-rub"></i> / Работы по напылению</h6>
+            </div>
+
+            <div class="pricing-content">
+                <ul>
+                    <li><i class="icon-ok"></i> белого цвета</li>
+                    <li><img alt="" src="/web/images/vedro.png" style="height:200px"></li>
+                </ul>
+            </div>
+            <div class="pricing-action">
+                <a href="/contacts" class="btn btn-medium btn-theme"><i class="fa fa-rub"></i> Купить</a>
             </div>
         </div>
     </div>
 </div>
 
 
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="pricing-box-wrap">
+            <div class="pricing-heading">
+                <h3><strong>ПРОБКОВЫЙ ГЕРМЕТИК</strong></h3>
+            </div>
+
+            <div class="pricing-terms">
+                <h6>? <i class="fa fa-rub"></i> / Ведро</h6>
+                <h6>? <i class="fa fa-rub"></i> / Киллограмм</h6>
+                <h6>?  <i class="fa fa-rub"></i> / Работы по напылению</h6>
+            </div>
+
+            <div class="pricing-content">
+                <ul>
+                    <li><i class="icon-ok"></i> Цвет натуральной пробки</li>
+                    <li><img alt="" src="http://isocork77.ru/uploads/image/77b59d93b279c1d937becf0609ed2a2b.jpg"</li>
+                </ul>
+            </div>
+
+
+            <div class="pricing-action">
+                <a href="/contacts" class="btn btn-medium btn-theme"><i class="fa fa-rub"></i> Купить</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
 </div>
 </section>
