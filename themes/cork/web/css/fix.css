@@ -121,6 +121,30 @@ header .top p.topcontact {
     margin-left: 0px !important;
 }
 
+.list-view ul.thumbnails li.span12 + li {
+    margin-left: 0px !important;
+}
+
+.list-view ul.thumbnails li.span6:nth-child(2n + 3) {
+    margin-left: 0px !important;
+}
+
+.list-view ul.thumbnails li.span4:nth-child(3n + 4) {
+    margin-left: 0px !important;
+}
+
+.list-view ul.thumbnails li.span3:nth-child(4n + 5) {
+    margin-left: 0px !important;
+}
+
+.list-view ul.thumbnails li.span2:nth-child(6n + 7) {
+    margin-left: 0px !important;
+}
+
+.list-view ul.thumbnails li.span1:nth-child(12n + 13) {
+    margin-left: 0px !important;
+}
+
 .map {
     margin-bottom: 20px !important;
     margin-top: -30px !important;
