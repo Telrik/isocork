@@ -97,6 +97,12 @@ header .top p.topcontact {
     letter-spacing: -1px;
 }
 
+#make-wide {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px
+}
+
 .row-fluid ul.thumbnails li.span12 + li {
     margin-left: 0px !important;
 }
