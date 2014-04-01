@@ -50,7 +50,7 @@
             <div class="container">
                 <div class="row">
                     <div class="pull-right">
-                        <p class="topcontact"><i class="icon-phone"></i> +79296078021</p>
+                        <p class="topcontact"><i class="icon-phone"></i> +7 929 6078021, +7 985 6006130, +7 495 6516119</p>
                     </div>
 
                 </div>

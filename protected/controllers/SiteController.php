@@ -41,6 +41,8 @@ class SiteController extends yupe\components\controllers\FrontController
      */
     public function actionError()
     {
+        $this->forward('feedback/contact/index');
+        /*
         $error = Yii::app()->errorHandler->error;
 
         if (empty($error) || !isset($error['code']) || !(isset($error['message']) || isset($error['msg']))) {
@@ -53,7 +55,7 @@ class SiteController extends yupe\components\controllers\FrontController
                     'error' => $error
                 )
             );
-        }
+        }*/
     }
 
 

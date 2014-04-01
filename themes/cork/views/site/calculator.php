@@ -71,7 +71,6 @@ $model = new FeedBackForm();
             calculate();
         }).bootstrapSwitch();
 
-
         $('#FeedBackForm_weight').on('change keyup paste', function () {
             this.value = this.value.replace(/[^0-9\.]/g, '');
             calculate();

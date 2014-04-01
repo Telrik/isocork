@@ -40,7 +40,7 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
                         <div class="span6">
                             <h2 class="animated fadeInDown"><strong>Заказать <span class="colored">обратный звонок</span></strong></h2>
 
-                            <p class="animated fadeInUp"> Vim porro dicam reprehendunt te, populo quodsi dissentiet cum ad. Ne natum deseruisse vis. Iisque deseruisse sententiae mel ne, dolores appetere vim ut. Sea no tamquam reprimique.</p>
+                            <p class="animated fadeInUp"> Укажите ваш телефон или электронную почту, мы свяжемся с вами в ближайшее время и ответим на все ваши вопросы.</p>
 
                             <?php echo CHtml::beginForm(array('//contacts'), 'post', array()); ?>
                             <?php echo CHtml::hiddenField('FeedBackForm[name]', 'callback-top', array()); ?>
@@ -72,7 +72,10 @@ Yii::app()->clientScript->registerScriptFile($mainAssets . '/js/camera/setting.j
                         <div class="span6">
                             <h2 class="animated fadeInDown"><strong><span class="colored">Responsive</span> and <span class="colored">cross broswer</span> compatibility</strong></h2>
 
-                            <p class="animated fadeInUp">Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                            <p class="animated fadeInUp">
+                                Бонусная программа 2014 Изокорк Москва:<br/>
+                                Приведи друга и получи 5% на бонусную карту.
+                            </p>
                             <img src="img/slides/camera/slide3/browsers.png" alt="" class="animated bounceInDown delay1"/>
                         </div>
                     </div>
