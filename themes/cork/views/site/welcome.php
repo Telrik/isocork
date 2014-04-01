@@ -328,7 +328,7 @@
 <a name="buy-now"></a>
 
 <div class="row-fluid">
-    <div class="span4">
+    <div class="span6">
         <div class="pricing-box-wrap special">
             <div class="pricing-heading">
                 <h3><strong>УНИВЕРСАЛЬНЫЙ</strong></h3>
@@ -353,7 +353,7 @@
             </div>
         </div>
     </div>
-    <div class="span4">
+    <div class="span6">
         <div class="pricing-box-wrap special">
             <div class="pricing-heading">
                 <h3><strong>ФАСАДНЫЙ</strong></h3>
@@ -377,7 +377,12 @@
             </div>
         </div>
     </div>
-    <div class="span4">
+
+</div>
+
+
+<div class="row-fluid">
+    <div class="span6">
         <div class="pricing-box-wrap special">
             <div class="pricing-heading">
                 <h3><strong>ОГНЕУПОРНЫЙ</strong></h3>
@@ -400,11 +405,7 @@
             </div>
         </div>
     </div>
-</div>
-
-
-<div class="row-fluid">
-    <div class="span4">
+    <div class="span6">
         <div class="pricing-box-wrap">
             <div class="pricing-heading">
                 <h3><strong>ПРОБКОВЫЙ ГЕРМЕТИК</strong></h3>
