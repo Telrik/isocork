@@ -329,7 +329,7 @@
 
 <div class="row-fluid">
     <div class="span4">
-        <div class="pricing-box-wrap">
+        <div class="pricing-box-wrap special">
             <div class="pricing-heading">
                 <h3><strong>УНИВЕРСАЛЬНЫЙ</strong></h3>
             </div>
@@ -339,15 +339,6 @@
                 <h6>330 <i class="fa fa-rub"></i> / Киллограмм</h6>
                 <h6>860 <i class="fa fa-rub"></i> / Работы по напылению</h6>
             </div>
-
-
-            <!-- <div class="pricing-content">
-                 <ul>
-                     <li><i class="fa fa-thumbs-up"></i> Стоимость работ по напылению ISOCORK</li>
-                     <li><i class="fa fa-rub"></i> 860</li>
-                 </ul>
-             </div>-->
-
 
             <div class="pricing-content">
                 <ul>
@@ -387,7 +378,7 @@
         </div>
     </div>
     <div class="span4">
-        <div class="pricing-box-wrap">
+        <div class="pricing-box-wrap special">
             <div class="pricing-heading">
                 <h3><strong>ОГНЕУПОРНЫЙ</strong></h3>
             </div>
@@ -412,7 +403,6 @@
 </div>
 
 
-
 <div class="row-fluid">
     <div class="span4">
         <div class="pricing-box-wrap">
@@ -423,7 +413,7 @@
             <div class="pricing-terms">
                 <h6>? <i class="fa fa-rub"></i> / Ведро</h6>
                 <h6>? <i class="fa fa-rub"></i> / Киллограмм</h6>
-                <h6>?  <i class="fa fa-rub"></i> / Работы по напылению</h6>
+                <h6>? <i class="fa fa-rub"></i> / Работы по напылению</h6>
             </div>
 
             <div class="pricing-content">
