@@ -14,6 +14,8 @@
         'gallery.widgets.GalleryWidget',
         array('galleryId' => $model->id, 'gallery' => $model, 'limit' => 30)
     ); ?>
+    
+    <div class="clearfix"></div>
 
     <?php if (Yii::app()->user->isAuthenticated()) : ?>
         <?php if ($model->canAddPhoto) : ?>
@@ -22,3 +24,4 @@
     <?php endif; ?>
 
 </div>
+  
