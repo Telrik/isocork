@@ -43,7 +43,7 @@ $this->widget(
     array(
         'dataProvider' => $dataProvider,
         'itemView' => '_image',
-        'template' => "{items}\n{pager}",
+        'template' => "{items}\n<div class='clearfix'></div>{pager}",
         'itemsCssClass' => 'gallery-thumbnails thumbnails',
         'itemsTagName' => 'ul'
     )
