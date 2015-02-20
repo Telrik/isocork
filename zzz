@@ -1,0 +1,75 @@
+<div class="row-fluid">
+    <div class="span4">
+        <div class="pricing-box-wrap special">
+            <div class="pricing-heading">
+                <h3><strong>УНИВЕРСАЛЬНЫЙ</strong></h3>
+            </div>
+
+            <div class="pricing-terms">
+                <h6>3960 <i class="fa fa-rub"></i> / Ведро</h6>
+                <h6>330 <i class="fa fa-rub"></i> / Киллограмм</h6>
+                <h6>860 <i class="fa fa-rub"></i> / Работы по напылению</h6>
+            </div>
+
+            <div class="pricing-content">
+                <ul>
+                    <li><i class="icon-ok"></i> Цвет натуральной пробки</li>
+                    <li><img alt="" src="/web/images/vedro.png" style="height:200px"></li>
+                </ul>
+            </div>
+
+
+            <div class="pricing-action">
+                <a href="/contacts" class="btn btn-medium btn-theme"><i class="fa fa-rub"></i> Купить</a>
+            </div>
+        </div>
+    </div>
+    <div class="span4">
+        <div class="pricing-box-wrap special">
+            <div class="pricing-heading">
+                <h3><strong>ФАСАДНЫЙ</strong></h3>
+            </div>
+
+            <div class="pricing-terms">
+
+                <h6>320 <i class="fa fa-rub"></i> / Киллограмм</h6>
+                <h6>900 <i class="fa fa-rub"></i> / Работы по напылению</h6>
+            </div>
+
+            <div class="pricing-content">
+                <ul>
+                    <li><i class="icon-ok"></i> 20 стандартных цветов</li>
+                    <li><img alt="" src="/web/images/vedro3.png" style="height:200px"></li>
+
+                </ul>
+            </div>
+            <div class="pricing-action">
+                <a href="/contacts" class="btn btn-medium btn-theme"><i class="fa fa-rub"></i> Купить</a>
+            </div>
+        </div>
+    </div>
+    <div class="span4">
+        <div class="pricing-box-wrap">
+            <div class="pricing-heading">
+                <h3><strong>ОГНЕУПОРНЫЙ</strong></h3>
+            </div>
+
+            <div class="pricing-terms">
+                <h6>4800 <i class="fa fa-rub"></i> / Ведро</h6>
+                <h6>400 <i class="fa fa-rub"></i> / Киллограмм</h6>
+                <h6>1000 <i class="fa fa-rub"></i> / Работы по напылению</h6>
+            </div>
+
+            <div class="pricing-content">
+                <ul>
+                    <li><i class="icon-ok"></i> белого цвета</li>
+                    <li><img alt="" src="/web/images/vedro.png" style="height:200px"></li>
+                </ul>
+            </div>
+            <div class="pricing-action">
+                <a href="/contacts" class="btn btn-medium btn-theme"><i class="fa fa-rub"></i> Купить</a>
+            </div>
+        </div>
+    </div>
+</div>
+

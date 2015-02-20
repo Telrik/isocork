@@ -91,7 +91,7 @@
                     <a href="#" id="make-wide" class="btn btn-inverse btn-mini pull-left" style="margin: 0px 10px 10px 10px;">&nbsp;<i class="fa fa-expand fa-2"></i>&nbsp;</a>
 
                     <div class="pull-right">
-                        <p class="topcontact"><i class="icon-phone"></i> +7 929 6078021, +7 985 6006130, +7 495 6516119</p>
+                        <p class="topcontact"><i class="icon-phone"></i> +7 929 6078021, +7 495 6516119</p>
                     </div>
 
                 </div>

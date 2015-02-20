@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 		thumbnails: false,
 		hover: false,
 		fx: 'random',
-		time: 7000,
+		time: 20000,
 		transPeriod: 1100,
 		pagination: false,
 		loader: 'none'
