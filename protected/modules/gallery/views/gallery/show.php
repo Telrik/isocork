@@ -9,6 +9,7 @@
  * @link     http://yupe.ru
  **/
 ?>
+
 <div class="gallery-show">
     <?php $this->pageTitle = Yii::t('GalleryModule.gallery', 'Gallery'); ?>
     <?php $this->breadcrumbs = array(

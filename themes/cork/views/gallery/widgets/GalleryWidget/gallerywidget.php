@@ -16,13 +16,12 @@ Yii::app()->getClientScript()->registerScriptFile($url . '/js/masonry.min.js', C
 Yii::app()->getClientScript()->registerScriptFile($url . '/js/imagesloaded.min.js', CClientScript::POS_END);
 
 
-
 Yii::app()->clientScript->registerScript(
     $this->getId(),
     'var $container = jQuery(".gallery-thumbnails");
     $container.imagesLoaded(function() {
         $container.masonry({
-            itemSelector: ".gallery-thumbnail",
+            itemSelector: ".gallery-thumbnail-1",
             gutter: 10
         });
     });'
