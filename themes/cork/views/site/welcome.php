@@ -18,7 +18,7 @@
         <p class="lead">
             <b>Марки напыляемой пробки</b><br/>
             Мы работаем с основными Российскими производителями напыляемой пробки, такими как Isocork, NanoCork, Cap-Cor. E каждого из них есть свои плюсы и минусы. Мы лишь даем свои рекомендации, но выбор оставляем за вами.
-            С ценами вы можете ознакомиться в разделе <a style="color:navy;text-decoration: underline;" href="/pages/price">цены</a>
+            С ценами вы можете ознакомиться в разделе <a style="font-weight: bold;text-decoration: underline;" href="/pages/price">цены</a>
         </p>
         <div style="text-align: justify;" >
             <img  src="/img/logo/capcor.jpg">
